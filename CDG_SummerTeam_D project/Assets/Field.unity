@@ -397,7 +397,10 @@ MonoBehaviour:
   sensitivity_x: 2
   sensitivity_y: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &218990788
 PrefabInstance:
@@ -633,6 +636,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e6291706db79d8041a00b6fb0f155709, type: 3}
 =======
 >>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &981266638 stripped
 GameObject:
@@ -679,7 +685,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &1467326319
 PrefabInstance:
@@ -740,6 +749,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 3fe1b12237672054b8dcc898b40b1fbf, type: 3}
 =======
 >>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1586225098
 GameObject:
@@ -850,7 +862,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &1688213906
 PrefabInstance:
@@ -968,6 +983,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b0a1e3bec99316b4d865cf91c4650c7c, type: 3}
 =======
 >>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1931046650
 GameObject:
@@ -1078,7 +1096,10 @@ MeshFilter:
   m_GameObject: {fileID: 1931046650}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!1001 &1972300846
 PrefabInstance:
@@ -1196,6 +1217,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e6291706db79d8041a00b6fb0f155709, type: 3}
 =======
 >>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1001 &1001095517597932874
 PrefabInstance:
@@ -1288,7 +1312,10 @@ SceneRoots:
   - {fileID: 1586225102}
   - {fileID: 1001095517597932874}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   - {fileID: 1882364831}
   - {fileID: 1467326319}
@@ -1301,4 +1328,7 @@ SceneRoots:
   - {fileID: 1972300846}
 =======
 >>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
