@@ -12,8 +12,10 @@ public class TPSMovement : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotationSpeed = 10f;
+    [SerializeField] private float gravity = -9.81f;
 
     private Vector2 moveInput;
+    private Vector3 velocity;
 
     void Awake()
     {
@@ -44,29 +46,49 @@ public class TPSMovement : MonoBehaviour
     void Update()
     {
         Move();
+        ApplyGravity();
     }
 
     private void Move()
-    {
+{
     Vector3 forward = cam.forward;
     Vector3 right = cam.right;
     forward.y = 0;
     right.y = 0;
     forward.Normalize();
     right.Normalize();
-    
+
     Vector3 moveDirection = forward * moveInput.y + right * moveInput.x;
+
+    // 入力が無ければここで終了
+    if (moveInput == Vector2.zero)
+    {
+        anim.SetBool("walking", false);
+        return;
+    }
+
+    // 移動処理
     controller.Move(moveDirection * moveSpeed * Time.deltaTime);
-    
-    if (moveDirection.sqrMagnitude > 0.01f)
-        {
-        Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-        transform.rotation = Quaternion.Slerp(
+
+    // 回転処理
+    Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+    transform.rotation = Quaternion.Slerp(
         transform.rotation,
         targetRotation,
         rotationSpeed * Time.deltaTime
-        );
+    );
+
+    // アニメーション
+    anim.SetBool("walking", true);
+    }
+
+    private void ApplyGravity()
+    {
+        if (controller.isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f; // 地面に押し付ける
         }
-    anim.SetBool("walking",moveDirection.magnitude > 0.1f);
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 }
