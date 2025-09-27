@@ -8,11 +8,14 @@ public class TPSMovement : MonoBehaviour
     private Animator anim;
     private PlayerControls controls;
     private Transform cam;
+    private PlayerPowerUp powerUp;
+
 
     [Header("Settings")]
-    [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotationSpeed = 10f;
     [SerializeField] private float gravity = -9.81f;
+
+    
 
     private Vector2 moveInput;
     private Vector3 velocity;
@@ -21,6 +24,8 @@ public class TPSMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+        /*変更点１*/
+        powerUp = GetComponent<PlayerPowerUp>();
         controls = new PlayerControls();
 
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -67,8 +72,8 @@ public class TPSMovement : MonoBehaviour
         return;
     }
 
-    // 移動処理
-    controller.Move(moveDirection * moveSpeed * Time.deltaTime);
+    // 移動処理（変更点２）
+    controller.Move(moveDirection * powerUp.currentSpeed * Time.deltaTime);
 
     // 回転処理
     Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
