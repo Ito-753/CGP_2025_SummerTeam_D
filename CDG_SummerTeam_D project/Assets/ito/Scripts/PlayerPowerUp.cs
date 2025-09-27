@@ -26,6 +26,9 @@ public class PlayerPowerUp : MonoBehaviour
     [HideInInspector] public float currentAttackRange;
     [HideInInspector] public int currentScoreBonus;
 
+    // 透過表示させたいオブジェクトを指定
+    [SerializeField] private Outline[] wallVisionTargets;
+
     void Start()
     {
         ResetPowerUps();
@@ -57,7 +60,7 @@ public class PlayerPowerUp : MonoBehaviour
 
             case PowerUpType.WallHack:
                 hasWallHack = true;
-                // ここで「壁を透過して見える」処理を呼び出す
+                EnableWallVision(true);
                 break;
         }
     }
@@ -75,4 +78,13 @@ public class PlayerPowerUp : MonoBehaviour
         currentAttackRange = defaultAttackRange;
         currentScoreBonus = defaultScoreBonus;
     }
+
+    private void EnableWallVision(bool enable)
+    {
+        foreach (var outline in wallVisionTargets)
+        {
+            outline.enabled = enable;
+        }
+    }
+
 }
