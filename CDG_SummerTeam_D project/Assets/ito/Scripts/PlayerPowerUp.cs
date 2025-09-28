@@ -58,7 +58,7 @@ public class PlayerPowerUp : MonoBehaviour
     }
 
     Debug.Log("Crystal オブジェクト数: " + crystals.Length);
-    }
+
 
     public void PowerUp(PowerUpType type)
     {
@@ -117,6 +117,7 @@ public class PlayerPowerUp : MonoBehaviour
     private void EnableWallVision(bool enable)
     {
         foreach (var outline in wallVisionTargets)
+
         if (outline != null)
         {
             outline.enabled = enable;

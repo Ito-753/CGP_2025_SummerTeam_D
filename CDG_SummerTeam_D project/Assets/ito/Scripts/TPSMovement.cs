@@ -71,7 +71,6 @@ public class TPSMovement : MonoBehaviour
         return;
     }
 
-    // 移動処理
     controller.Move(moveDirection * powerUp.currentSpeed * Time.deltaTime);
 
     // 回転処理
