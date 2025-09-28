@@ -24,7 +24,6 @@ public class ScoreUpCrystal : MonoBehaviour
         {
             Sm.Score += 100;
             TriggerEvent();
-            Destroy(this.gameObject);
             Status = 1;
 
         }
