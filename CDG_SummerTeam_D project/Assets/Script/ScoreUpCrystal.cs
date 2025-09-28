@@ -23,26 +23,33 @@ public class ScoreUpCrystal : MonoBehaviour
             TriggerEvent();
             Status = 1;
         }
-    }
 
+    }    
     void TriggerEvent()
+
     {
+            // プレハブを生成
         Transform brokenTransform = Instantiate(brokenPrefab, transform.position, transform.rotation);
         brokenTransform.localScale = transform.localScale;
 
+            // Rigidbodyがある場合、velocityを設定
         Rigidbody rb = brokenTransform.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.linearVelocity = launchVelocity; // 修正: linearVelocity → velocity
+            rb.linearVelocity = launchVelocity;
             rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         }
 
+            // 元のオブジェクトを破壊
         Destroy(gameObject);
     }
 
+
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameObject scoreObj = GameObject.Find("ScoreCount");
+        GameObject scoreObj = GameObject.Find("ScoreText");
         if (scoreObj != null)
         {
             Sm = scoreObj.GetComponent<ScoreCount>();
@@ -52,6 +59,8 @@ public class ScoreUpCrystal : MonoBehaviour
             Debug.LogError("ScoreCountオブジェクトが見つかりません");
         }
 
+        //ScoreCount（別で作成したスコアを計測してくれるScript）を探す
+        Sm = GameObject.Find("ScoreText").GetComponent<ScoreCount>();
         Status = 0;
     }
 }

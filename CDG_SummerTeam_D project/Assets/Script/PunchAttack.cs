@@ -18,7 +18,7 @@ public class PunchController : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            animator.SetTrigger("Mutant Punch Import Settings");
+            animator.SetTrigger("Mutant Punch Import-Settings");
             //パンチのコルーティンを開始
             StartCoroutine(PunchAttack());
         }
