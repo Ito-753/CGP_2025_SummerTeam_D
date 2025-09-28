@@ -29,24 +29,22 @@ public class ScoreUpCrystal : MonoBehaviour
 
         }
         void TriggerEvent()
+
         {
+            // プレハブを生成
+            Transform brokenTransform = Instantiate(brokenPrefab, transform.position, transform.rotation);
+            brokenTransform.localScale = transform.localScale;
 
+            // Rigidbodyがある場合、velocityを設定
+            Rigidbody rb = brokenTransform.GetComponent<Rigidbody>();
+            if (rb != null)
             {
-                // プレハブを生成
-                Transform brokenTransform = Instantiate(brokenPrefab, transform.position, transform.rotation);
-                brokenTransform.localScale = transform.localScale;
-
-                // Rigidbodyがある場合、velocityを設定
-                Rigidbody rb = brokenTransform.GetComponent<Rigidbody>();
-                if (rb != null)
-                {
-                    rb.linearVelocity = launchVelocity;
-                    rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
-                }
-
-                // 元のオブジェクトを破壊
-                Destroy(gameObject);
+                rb.linearVelocity = launchVelocity;
+                rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
             }
+
+            // 元のオブジェクトを破壊
+            Destroy(gameObject);
         }
 
 
