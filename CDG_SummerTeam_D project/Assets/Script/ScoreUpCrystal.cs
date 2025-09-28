@@ -20,10 +20,12 @@ public class ScoreUpCrystal : MonoBehaviour
         if (touchCount == 3 && Status == 0)
         {
             Sm.Score += 100;
+
             Destroy(this.gameObject);
             Status = 1;
 
         }
+
 
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -46,8 +48,5 @@ public class ScoreUpCrystal : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
 
-    }
 }
