@@ -29,6 +29,8 @@ public class TPSMovement : MonoBehaviour
 
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         controls.Player.Move.canceled += ctx => moveInput =Vector2.zero;
+
+        controls.Player.Punch.performed += _ => Punch();
     }
 
     void OnEnable()
@@ -54,7 +56,7 @@ public class TPSMovement : MonoBehaviour
     }
 
     private void Move()
-{
+    {
     Vector3 forward = cam.forward;
     Vector3 right = cam.right;
     forward.y = 0;
@@ -83,6 +85,16 @@ public class TPSMovement : MonoBehaviour
 
     // アニメーション
     anim.SetBool("walking", true);
+    }
+
+    private void Punch()
+        {
+        Debug.Log("パンチ発動！");
+
+        // アニメーション再生
+        anim.SetTrigger("Punch");
+
+        // ここで当たり判定を呼ぶ or コルーチンで攻撃タイミングを制御してもOK
     }
 
     private void ApplyGravity()
