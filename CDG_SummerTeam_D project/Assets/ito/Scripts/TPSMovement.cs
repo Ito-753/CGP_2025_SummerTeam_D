@@ -24,7 +24,6 @@ public class TPSMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
-        /*変更点１*/
         powerUp = GetComponent<PlayerPowerUp>();
         controls = new PlayerControls();
 
@@ -72,7 +71,6 @@ public class TPSMovement : MonoBehaviour
         return;
     }
 
-    // 移動処理（変更点２）
     controller.Move(moveDirection * powerUp.currentSpeed * Time.deltaTime);
 
     // 回転処理

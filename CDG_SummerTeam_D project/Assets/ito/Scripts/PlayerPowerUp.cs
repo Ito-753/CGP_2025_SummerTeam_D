@@ -26,13 +26,39 @@ public class PlayerPowerUp : MonoBehaviour
     [HideInInspector] public float currentAttackRange;
     [HideInInspector] public int currentScoreBonus;
 
-    // 透過表示させたいオブジェクトを指定
-    [SerializeField] private Outline[] wallVisionTargets;
+    private Outline[] wallVisionTargets;
+    private PlayerAppearance appearance;
+
+        void Awake()
+    {
+        appearance = GetComponent<PlayerAppearance>();
+    }
 
     void Start()
     {
+    // タグ "Crystal" を持つオブジェクトを探して Outline を取得
+    GameObject[] crystals = GameObject.FindGameObjectsWithTag("Crystal");
+    wallVisionTargets = new Outline[crystals.Length];
+
+    for (int i = 0; i < crystals.Length; i++)
+    {
+        wallVisionTargets[i] = crystals[i].GetComponent<Outline>();
+        if (wallVisionTargets[i] != null)
+        {
+            wallVisionTargets[i].enabled = false; // 最初は非表示
+        }
+        else
+        {
+            Debug.LogWarning(crystals[i].name + " に Outline が付いていません！");
+        }
+
+        // 最初にリセットを呼ぶ
         ResetPowerUps();
+        
     }
+
+    Debug.Log("Crystal オブジェクト数: " + crystals.Length);
+
 
     public void PowerUp(PowerUpType type)
     {
@@ -63,6 +89,13 @@ public class PlayerPowerUp : MonoBehaviour
                 EnableWallVision(true);
                 break;
         }
+
+        // 見た目をONにする
+        if (appearance != null)
+        {
+            appearance.ApplyPowerUp(type);
+        }
+
     }
 
     public void ResetPowerUps()
@@ -77,13 +110,22 @@ public class PlayerPowerUp : MonoBehaviour
         currentAttackPower = defaultAttackPower;
         currentAttackRange = defaultAttackRange;
         currentScoreBonus = defaultScoreBonus;
+
+        EnableWallVision(false);
     }
 
     private void EnableWallVision(bool enable)
     {
         foreach (var outline in wallVisionTargets)
+
+        if (outline != null)
         {
             outline.enabled = enable;
+            Debug.Log($"Outline {outline.name} set to {enable}");
+        }
+        else
+        {
+            Debug.LogWarning("Outline reference is missing!");
         }
     }
 
