@@ -397,6 +397,11 @@ MonoBehaviour:
   sensitivity_x: 2
   sensitivity_y: 2
 <<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 69ec3e0 (a)
+<<<<<<< HEAD
 
 --- !u!1001 &218990788 
 PrefabInstance:
@@ -632,7 +637,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e6291706db79d8041a00b6fb0f155709, type: 3}
 
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a898be7 (a)
+=======
+>>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+>>>>>>> Stashed changes
+>>>>>>> parent of 69ec3e0 (a)
 --- !u!1 &981266638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9121993218423558165, guid: cdb61e65fa8134347ab0d010f083a451, type: 3}
@@ -677,6 +687,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 69ec3e0 (a)
 <<<<<<< HEAD
 
 --- !u!1001 &1467326319
@@ -738,7 +753,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 3fe1b12237672054b8dcc898b40b1fbf, type: 3}
 
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a898be7 (a)
+=======
+>>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+>>>>>>> Stashed changes
+>>>>>>> parent of 69ec3e0 (a)
 --- !u!1 &1586225098
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +867,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 69ec3e0 (a)
 <<<<<<< HEAD
 
 
@@ -966,7 +991,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b0a1e3bec99316b4d865cf91c4650c7c, type: 3}
 
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a898be7 (a)
+=======
+>>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+>>>>>>> Stashed changes
+>>>>>>> parent of 69ec3e0 (a)
 --- !u!1 &1931046650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1105,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931046650}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 69ec3e0 (a)
 <<<<<<< HEAD
 
 
@@ -1194,7 +1229,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e6291706db79d8041a00b6fb0f155709, type: 3}
 
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a898be7 (a)
+=======
+>>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+>>>>>>> Stashed changes
+>>>>>>> parent of 69ec3e0 (a)
 --- !u!1001 &1001095517597932874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1286,6 +1326,11 @@ SceneRoots:
   - {fileID: 1586225102}
   - {fileID: 1001095517597932874}
 <<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 69ec3e0 (a)
+<<<<<<< HEAD
 
 
   - {fileID: 1882364831}
@@ -1298,4 +1343,9 @@ SceneRoots:
   - {fileID: 218990788}
   - {fileID: 1972300846}
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a898be7 (a)
+=======
+>>>>>>> 9e1083353cc1953ae3fa1c878475e6457118e1ac
+>>>>>>> Stashed changes
+>>>>>>> parent of 69ec3e0 (a)
