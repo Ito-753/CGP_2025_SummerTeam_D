@@ -3,7 +3,7 @@ using UnityEngine;
 //クリスタルにつける用
 //ScoreCountに干渉する
 //触れたらカウントアップし、三回になったら壊れてスコアアップ
-public class ScoreUpCrystal : MonoBehaviour
+public class DemoScoreUpCrystal : MonoBehaviour
 {
 
     private int touchCount = 0;
