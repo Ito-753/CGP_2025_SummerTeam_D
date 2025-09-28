@@ -1750,6 +1750,7 @@ GameObject:
   - component: {fileID: 6211836857983785178}
   - component: {fileID: 1914521311891926177}
   - component: {fileID: 6794097617953020865}
+  - component: {fileID: 765342200657715923}
   m_Layer: 0
   m_Name: Chara robbot
   m_TagString: Player
@@ -1913,6 +1914,27 @@ MonoBehaviour:
   powerUp: {fileID: 7533951990877824013}
   scoreUp: {fileID: 4724626248687659652}
   wallHack: {fileID: 4940625425226874066}
+--- !u!65 &765342200657715923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671356453878401486}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1779963974660186237
 GameObject:
   m_ObjectHideFlags: 0
