@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreCount : MonoBehaviour
 {
     public int Score;
-    public Text ScoreText;
+    public TextMeshProUGUI ScoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

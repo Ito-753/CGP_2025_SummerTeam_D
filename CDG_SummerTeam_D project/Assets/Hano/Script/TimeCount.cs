@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class TimeCount : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class TimeCount : MonoBehaviour
 
     public float timeLimit = 0f;
     //timeTextのフィールドにtextのオブジェクトを入れる
-    public Text timeText;
+    public TextMeshProUGUI timeText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,11 +22,11 @@ public class TimeCount : MonoBehaviour
     {
         countdown -= Time.deltaTime;
 
-        timeText.text = countdown.ToString("f1") + "秒";
+        timeText.text = countdown.ToString("f1");
 
         if (countdown <= 0)
         {
-            timeText.text = "終了";
+            timeText.text = "End";
         }
         if (countdown < timeLimit - 3)
         {
