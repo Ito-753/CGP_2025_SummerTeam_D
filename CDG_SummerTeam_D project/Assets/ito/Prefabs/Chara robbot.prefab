@@ -1750,6 +1750,7 @@ GameObject:
   - component: {fileID: 6211836857983785178}
   - component: {fileID: 1914521311891926177}
   - component: {fileID: 6794097617953020865}
+  - component: {fileID: 1200789116228702389}
   m_Layer: 0
   m_Name: Chara robbot
   m_TagString: Player
@@ -1892,11 +1893,11 @@ MonoBehaviour:
   boostedSpeed: 20
   boostedAttackPower: 20
   boostedAttackRange: 3
-  boostedScoreBonus: 2
+  boostedScoreMultiplier: 2
   currentSpeed: 0
   currentAttackPower: 0
   currentAttackRange: 0
-  currentScoreBonus: 0
+  currentScoreMultiplier: 0
 --- !u!114 &6794097617953020865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1913,6 +1914,20 @@ MonoBehaviour:
   powerUp: {fileID: 7533951990877824013}
   scoreUp: {fileID: 4724626248687659652}
   wallHack: {fileID: 4940625425226874066}
+--- !u!114 &1200789116228702389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671356453878401486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e633e43b679ce4690c6988f180a4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchCollider: {fileID: 0}
+  attackDuration: 0.5
 --- !u!1 &1779963974660186237
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,19 +12,18 @@ public class PlayerPowerUp : MonoBehaviour
     public float boostedSpeed = 10f;
     public float boostedAttackPower = 20f;
     public float boostedAttackRange = 3f;
-    public int boostedScoreBonus = 2;
+    public int boostedScoreMultiplier = 2;
 
     // もともとの値
     private float defaultSpeed = 5f;
     private float defaultAttackPower = 10f;
     private float defaultAttackRange = 1f;
-    private int defaultScoreBonus = 1;
-
+    private int defaultScoreMultiplier = 1;
     // 実際に使う値
     [HideInInspector] public float currentSpeed;
     [HideInInspector] public float currentAttackPower;
     [HideInInspector] public float currentAttackRange;
-    [HideInInspector] public int currentScoreBonus;
+    [HideInInspector] public int currentScoreMultiplier;
 
     private Outline[] wallVisionTargets;
     private PlayerAppearance appearance;
@@ -79,7 +78,7 @@ public class PlayerPowerUp : MonoBehaviour
 
                 case PowerUpType.Score:
                 hasScoreBonus = true;
-                currentScoreBonus = boostedScoreBonus;
+                currentScoreMultiplier = boostedScoreMultiplier;
                 break;
 
                 case PowerUpType.WallHack:
@@ -107,7 +106,7 @@ public class PlayerPowerUp : MonoBehaviour
             currentSpeed = defaultSpeed;
             currentAttackPower = defaultAttackPower;
             currentAttackRange = defaultAttackRange;
-            currentScoreBonus = defaultScoreBonus;
+            currentScoreMultiplier = defaultScoreMultiplier;
 
             EnableWallVision(false);
         }
