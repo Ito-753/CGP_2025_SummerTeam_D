@@ -9,7 +9,7 @@ public class TPSMovement : MonoBehaviour
     private PlayerControls controls;
     private Transform cam;
     private PlayerPowerUp powerUp;
-
+    private PunchController punchController;
 
     [Header("Settings")]
     [SerializeField] private float rotationSpeed = 10f;
@@ -25,6 +25,7 @@ public class TPSMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         powerUp = GetComponent<PlayerPowerUp>();
+        punchController = GetComponent<PunchController>();
         controls = new PlayerControls();
 
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -88,13 +89,16 @@ public class TPSMovement : MonoBehaviour
     }
 
     private void Punch()
+    {
+        Debug.Log("TPSMovement → Combatへパンチ入力送信");
+
+        if (punchController != null)
         {
-        Debug.Log("パンチ発動！");
-
-        // アニメーション再生
-        anim.SetTrigger("Punch");
-
-        // ここで当たり判定を呼ぶ or コルーチンで攻撃タイミングを制御してもOK
+            // Combat(PunchController) 側の Update() を使わず、直接 Punch 開始
+            // Input.GetMouseButton を使ってるので「強制的に呼ぶ」必要あり
+            punchController.StartCoroutine("PunchAttack");
+            anim.SetTrigger("Punch"); // Animator も同期
+        }
     }
 
     private void ApplyGravity()
