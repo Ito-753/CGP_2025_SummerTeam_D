@@ -270,9 +270,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 59689bfb5552c4a42a0251e53c0c9ea1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8882379973194176463}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 59689bfb5552c4a42a0251e53c0c9ea1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 8550506457132460238}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 59689bfb5552c4a42a0251e53c0c9ea1, type: 3}
       insertIndex: -1
@@ -3639,20 +3636,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 59689bfb5552c4a42a0251e53c0c9ea1, type: 3}
   m_PrefabInstance: {fileID: 1319124759309538248}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8882379973194176463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2201997619744239257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f702cae182ecbac4e9194b93e8e271ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brokenPrefab: {fileID: 6885811623781074283, guid: e84136e5b2914894aa8178f052595c49, type: 3}
-  launchVelocity: {x: 0, y: 5, z: 0}
 --- !u!33 &8550506457132460238
 MeshFilter:
   m_ObjectHideFlags: 0

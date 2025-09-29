@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 781072760813094643}
   m_Layer: 0
   m_Name: robot_Finger.015
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1750,7 +1750,9 @@ GameObject:
   - component: {fileID: 6211836857983785178}
   - component: {fileID: 1914521311891926177}
   - component: {fileID: 6794097617953020865}
-  - component: {fileID: 1200789116228702389}
+
+  - component: {fileID: 765342200657715923}
+
   m_Layer: 0
   m_Name: Chara robbot
   m_TagString: Player
@@ -1914,20 +1916,30 @@ MonoBehaviour:
   powerUp: {fileID: 7533951990877824013}
   scoreUp: {fileID: 4724626248687659652}
   wallHack: {fileID: 4940625425226874066}
---- !u!114 &1200789116228702389
-MonoBehaviour:
+  
+--- !u!65 &765342200657715923
+BoxCollider:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671356453878401486}
+
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92e633e43b679ce4690c6988f180a4de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  punchCollider: {fileID: 0}
-  attackDuration: 0.5
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1779963974660186237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,7 +2263,7 @@ GameObject:
   - component: {fileID: 5288102433000644707}
   m_Layer: 0
   m_Name: robot_Finger.012
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2695,7 +2707,7 @@ GameObject:
   - component: {fileID: 2122172593641854362}
   m_Layer: 0
   m_Name: robot_Finger.006
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3556,7 +3568,7 @@ GameObject:
   - component: {fileID: 1474771856267536680}
   m_Layer: 0
   m_Name: robot_Finger.014
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3741,7 +3753,7 @@ GameObject:
   - component: {fileID: 7247220347580722958}
   m_Layer: 0
   m_Name: robot_Finger.002
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3864,7 +3876,7 @@ GameObject:
   - component: {fileID: 6845210910093930701}
   m_Layer: 0
   m_Name: robot_Finger.019
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3987,7 +3999,7 @@ GameObject:
   - component: {fileID: 1098135212732343809}
   m_Layer: 0
   m_Name: robot_Finger.018
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5012,7 +5024,7 @@ GameObject:
   - component: {fileID: 8140314799672341241}
   m_Layer: 0
   m_Name: robot_Finger.004
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5321,7 +5333,7 @@ GameObject:
   - component: {fileID: 1036325901017980005}
   m_Layer: 0
   m_Name: robot_Finger.007
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5723,7 +5735,7 @@ GameObject:
   - component: {fileID: 4671847331285047083}
   m_Layer: 0
   m_Name: robot_Finger.011
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6155,7 +6167,7 @@ GameObject:
   - component: {fileID: 1431088455464185701}
   m_Layer: 0
   m_Name: robot_Finger.005
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6925,7 +6937,7 @@ GameObject:
   - component: {fileID: 5496651621073732482}
   m_Layer: 0
   m_Name: robot_Finger.003
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7234,7 +7246,7 @@ GameObject:
   - component: {fileID: 7833025181570882063}
   m_Layer: 0
   m_Name: robot_Finger.017
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7357,7 +7369,7 @@ GameObject:
   - component: {fileID: 266083393127568815}
   m_Layer: 0
   m_Name: robot_Finger.010
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7727,7 +7739,7 @@ GameObject:
   - component: {fileID: 2168738799129654762}
   m_Layer: 0
   m_Name: robot_Finger.008
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8005,7 +8017,7 @@ GameObject:
   - component: {fileID: 4102358242905228624}
   m_Layer: 0
   m_Name: robot_Finger.016
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8190,7 +8202,7 @@ GameObject:
   - component: {fileID: 8241716181928782172}
   m_Layer: 0
   m_Name: robot_Finger.013
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8894,7 +8906,7 @@ GameObject:
   - component: {fileID: 1726916103043943710}
   m_Layer: 0
   m_Name: robot_Finger.001
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9454,7 +9466,7 @@ GameObject:
   - component: {fileID: 8411576553765083388}
   m_Layer: 0
   m_Name: robot_Finger
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9732,7 +9744,7 @@ GameObject:
   - component: {fileID: 1540535574476530746}
   m_Layer: 0
   m_Name: robot_Finger.009
-  m_TagString: Untagged
+  m_TagString: PunchObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
