@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8407253422233675094}
   - component: {fileID: 781072760813094643}
+  - component: {fileID: 4657801984415748878}
   m_Layer: 0
   m_Name: robot_Finger.015
   m_TagString: PunchObject
@@ -155,6 +156,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000017881393, y: 1.111896, z: -0.024315143}
     m_Extent: {x: 1.5077927, y: 0.011382818, z: 0.011383088}
   m_DirtyAABB: 0
+--- !u!65 &4657801984415748878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117940119137693048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.0155854, y: 0.022766177, z: 0.022765636}
+  m_Center: {x: 0.00000017881393, y: 0.024315009, z: 3.3811564}
 --- !u!1 &149146984987912593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,6 +2278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7208092225489624588}
   - component: {fileID: 5288102433000644707}
+  - component: {fileID: 4974173098058666733}
   m_Layer: 0
   m_Name: robot_Finger.012
   m_TagString: PunchObject
@@ -2369,6 +2392,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: 0.054407697}
     m_Extent: {x: 1.4841092, y: 0.015180588, z: 0.015181143}
   m_DirtyAABB: 0
+--- !u!65 &4974173098058666733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132176490108887360}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9682183, y: 0.030362288, z: 0.030361177}
+  m_Center: {x: 0.00000011920929, y: -0.054407828, z: 3.380025}
 --- !u!1 &2246565237830595994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,6 +2744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6842521271190172265}
   - component: {fileID: 2122172593641854362}
+  - component: {fileID: 1442991827047447641}
   m_Layer: 0
   m_Name: robot_Finger.006
   m_TagString: PunchObject
@@ -2813,6 +2858,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1118951, z: 0.018187033}
     m_Extent: {x: 1.4359399, y: 0.016097069, z: 0.016097432}
   m_DirtyAABB: 0
+--- !u!65 &1442991827047447641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2808041416647617303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8718798, y: 0.032194864, z: 0.032194138}
+  m_Center: {x: 0.00000011920929, y: -0.018187163, z: 3.3811555}
 --- !u!1 &2809390598786504120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,6 +3627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6751770840084572944}
   - component: {fileID: 1474771856267536680}
+  - component: {fileID: 4765565073383559868}
   m_Layer: 0
   m_Name: robot_Finger.014
   m_TagString: PunchObject
@@ -3674,6 +3741,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000023841858, y: 1.111896, z: 0.018187042}
     m_Extent: {x: 1.5066913, y: 0.011382818, z: 0.011383093}
   m_DirtyAABB: 0
+--- !u!65 &4765565073383559868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627784124364341474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.0133827, y: 0.022766186, z: 0.022765636}
+  m_Center: {x: 0.00000023841858, y: -0.018187173, z: 3.3811564}
 --- !u!1 &3728096631619073996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,6 +3834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031479130731429916}
   - component: {fileID: 7247220347580722958}
+  - component: {fileID: 1185964416162185702}
   m_Layer: 0
   m_Name: robot_Finger.002
   m_TagString: PunchObject
@@ -3859,6 +3948,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: 0.12555903}
     m_Extent: {x: 1.3243439, y: 0.015180588, z: 0.023974411}
   m_DirtyAABB: 0
+--- !u!65 &1185964416162185702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832233251701347807}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6486878, y: 0.047948822, z: 0.03036118}
+  m_Center: {x: 0.00000011920929, y: -0.12555915, z: 3.380025}
 --- !u!1 &4050276300304055896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,6 +3979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804350390434704257}
   - component: {fileID: 6845210910093930701}
+  - component: {fileID: 7586895663474579845}
   m_Layer: 0
   m_Name: robot_Finger.019
   m_TagString: PunchObject
@@ -3982,6 +4093,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000029802322, y: 1.1107647, z: 0.018529132}
     m_Extent: {x: 1.563303, y: 0.015180588, z: 0.015181154}
   m_DirtyAABB: 0
+--- !u!65 &7586895663474579845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4050276300304055896}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.126606, y: 0.03036231, z: 0.030361177}
+  m_Center: {x: 0.00000029802322, y: -0.018529262, z: 3.380025}
 --- !u!1 &4085318274450697825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3992,6 +4124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 739697326654612437}
   - component: {fileID: 1098135212732343809}
+  - component: {fileID: 6297318193562223017}
   m_Layer: 0
   m_Name: robot_Finger.018
   m_TagString: PunchObject
@@ -4105,6 +4238,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: -0.024249166}
     m_Extent: {x: 1.5637625, y: 0.015180588, z: 0.015181158}
   m_DirtyAABB: 0
+--- !u!65 &6297318193562223017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085318274450697825}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.127525, y: 0.030362317, z: 0.030361177}
+  m_Center: {x: 0.00000011920929, y: 0.024249032, z: 3.380025}
 --- !u!1 &4091388300237927407
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,6 +5171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805146130886556589}
   - component: {fileID: 8140314799672341241}
+  - component: {fileID: 2327669196353763795}
   m_Layer: 0
   m_Name: robot_Finger.004
   m_TagString: PunchObject
@@ -5130,6 +5285,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: 0.17802149}
     m_Extent: {x: 1.3243442, y: 0.015180588, z: 0.023974426}
   m_DirtyAABB: 0
+--- !u!65 &2327669196353763795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896553350021125679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6486883, y: 0.047948852, z: 0.03036118}
+  m_Center: {x: 0.00000011920929, y: -0.17802161, z: 3.380025}
 --- !u!1 &4897287767900618942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5326,6 +5502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5486467706472227738}
   - component: {fileID: 1036325901017980005}
+  - component: {fileID: 4504430520693318836}
   m_Layer: 0
   m_Name: robot_Finger.007
   m_TagString: PunchObject
@@ -5439,6 +5616,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1118951, z: -0.024315156}
     m_Extent: {x: 1.4370421, y: 0.016097069, z: 0.016097426}
   m_DirtyAABB: 0
+--- !u!65 &4504430520693318836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5047895049965610467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8740842, y: 0.032194853, z: 0.032194138}
+  m_Center: {x: 0.00000011920929, y: 0.024315022, z: 3.3811555}
 --- !u!1 &5130868824780362470
 GameObject:
   m_ObjectHideFlags: 0
@@ -5728,6 +5926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2093240655952377177}
   - component: {fileID: 4671847331285047083}
+  - component: {fileID: 8212762979817104435}
   m_Layer: 0
   m_Name: robot_Finger.011
   m_TagString: PunchObject
@@ -5841,6 +6040,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 1.1107647, z: 0.01852912}
     m_Extent: {x: 1.4928489, y: 0.015180588, z: 0.015181139}
   m_DirtyAABB: 0
+--- !u!65 &8212762979817104435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246740502771730605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9856977, y: 0.03036228, z: 0.030361177}
+  m_Center: {x: 0, y: -0.018529251, z: 3.380025}
 --- !u!1 &5301366519704920828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,6 +6380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6655711447057796251}
   - component: {fileID: 1431088455464185701}
+  - component: {fileID: 5238481645741374302}
   m_Layer: 0
   m_Name: robot_Finger.005
   m_TagString: PunchObject
@@ -6273,6 +6494,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1118951, z: 0.054065503}
     m_Extent: {x: 1.4282104, y: 0.016097069, z: 0.016097419}
   m_DirtyAABB: 0
+--- !u!65 &5238481645741374302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538683165610459888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8564208, y: 0.032194838, z: 0.032194138}
+  m_Center: {x: 0.00000011920929, y: -0.054065634, z: 3.3811555}
 --- !u!1 &5732963340916264657
 GameObject:
   m_ObjectHideFlags: 0
@@ -6930,6 +7172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6851452702702871857}
   - component: {fileID: 5496651621073732482}
+  - component: {fileID: 355782010932918855}
   m_Layer: 0
   m_Name: robot_Finger.003
   m_TagString: PunchObject
@@ -7043,6 +7286,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000017881393, y: 1.111896, z: 0.15202798}
     m_Extent: {x: 1.320888, y: 0.011382818, z: 0.008565232}
   m_DirtyAABB: 0
+--- !u!65 &355782010932918855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253519859926328848}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.641776, y: 0.017130464, z: 0.022765636}
+  m_Center: {x: 0.00000017881393, y: -0.1520281, z: 3.3811564}
 --- !u!1 &6254449624519073552
 GameObject:
   m_ObjectHideFlags: 0
@@ -7239,6 +7503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5334111275230371677}
   - component: {fileID: 7833025181570882063}
+  - component: {fileID: 2535746262858779905}
   m_Layer: 0
   m_Name: robot_Finger.017
   m_TagString: PunchObject
@@ -7352,6 +7617,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000029802322, y: 1.1107647, z: -0.062887624}
     m_Extent: {x: 1.5531833, y: 0.015180588, z: 0.015181154}
   m_DirtyAABB: 0
+--- !u!65 &2535746262858779905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6520454197642962836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.1063666, y: 0.03036231, z: 0.030361177}
+  m_Center: {x: 0.00000029802322, y: 0.06288748, z: 3.380025}
 --- !u!1 &6658385613597119424
 GameObject:
   m_ObjectHideFlags: 0
@@ -7362,6 +7648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5293003307716826195}
   - component: {fileID: 266083393127568815}
+  - component: {fileID: 7781463934626981383}
   m_Layer: 0
   m_Name: robot_Finger.010
   m_TagString: PunchObject
@@ -7475,6 +7762,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: -0.024249177}
     m_Extent: {x: 1.493309, y: 0.015180588, z: 0.01518114}
   m_DirtyAABB: 0
+--- !u!65 &7781463934626981383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658385613597119424}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.986618, y: 0.030362282, z: 0.030361177}
+  m_Center: {x: 0.00000011920929, y: 0.024249043, z: 3.380025}
 --- !u!1 &6836713265451924015
 GameObject:
   m_ObjectHideFlags: 0
@@ -7732,6 +8040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418085778805695287}
   - component: {fileID: 2168738799129654762}
+  - component: {fileID: 5600214753074106110}
   m_Layer: 0
   m_Name: robot_Finger.008
   m_TagString: PunchObject
@@ -7845,6 +8154,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1118951, z: -0.062401526}
     m_Extent: {x: 1.4260025, y: 0.016097069, z: 0.016097419}
   m_DirtyAABB: 0
+--- !u!65 &5600214753074106110
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847687974804653703}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.852005, y: 0.032194838, z: 0.032194138}
+  m_Center: {x: 0.00000011920929, y: 0.062401388, z: 3.3811555}
 --- !u!1 &6857872264403065429
 GameObject:
   m_ObjectHideFlags: 0
@@ -8010,6 +8340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3513362829078971296}
   - component: {fileID: 4102358242905228624}
+  - component: {fileID: 6647798553068227657}
   m_Layer: 0
   m_Name: robot_Finger.016
   m_TagString: PunchObject
@@ -8123,6 +8454,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000029802322, y: 1.111896, z: -0.062401485}
     m_Extent: {x: 1.4967532, y: 0.011382818, z: 0.011383083}
   m_DirtyAABB: 0
+--- !u!65 &6647798553068227657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021227524752371167}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9935064, y: 0.022766165, z: 0.022765636}
+  m_Center: {x: 0.00000029802322, y: 0.062401347, z: 3.3811564}
 --- !u!1 &7054153343916487473
 GameObject:
   m_ObjectHideFlags: 0
@@ -8195,6 +8547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6122703456482834928}
   - component: {fileID: 8241716181928782172}
+  - component: {fileID: 3175216327293812832}
   m_Layer: 0
   m_Name: robot_Finger.013
   m_TagString: PunchObject
@@ -8308,6 +8661,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000023841858, y: 1.111896, z: 0.054065533}
     m_Extent: {x: 1.498961, y: 0.011382818, z: 0.011383088}
   m_DirtyAABB: 0
+--- !u!65 &3175216327293812832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447407851832790852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.997922, y: 0.022766177, z: 0.022765636}
+  m_Center: {x: 0.00000023841858, y: -0.054065663, z: 3.3811564}
 --- !u!1 &7458227712714177010
 GameObject:
   m_ObjectHideFlags: 0
@@ -8899,6 +9273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8210195710571950788}
   - component: {fileID: 1726916103043943710}
+  - component: {fileID: 2355136413368022598}
   m_Layer: 0
   m_Name: robot_Finger.001
   m_TagString: PunchObject
@@ -9012,6 +9387,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1118946, z: 0.089024395}
     m_Extent: {x: 1.3317817, y: 0.021006823, z: 0.021227155}
   m_DirtyAABB: 0
+--- !u!65 &2355136413368022598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7811475623050937390}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6635635, y: 0.04245431, z: 0.042013645}
+  m_Center: {x: 0.00000011920929, y: -0.08902452, z: 3.381155}
 --- !u!1 &7864174994837396382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9459,6 +9855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3957504438695772724}
   - component: {fileID: 8411576553765083388}
+  - component: {fileID: 721280845264420}
   m_Layer: 0
   m_Name: robot_Finger
   m_TagString: PunchObject
@@ -9572,6 +9969,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000029802322, y: 1.1107647, z: 0.05440771}
     m_Extent: {x: 1.5545633, y: 0.015180588, z: 0.01518116}
   m_DirtyAABB: 0
+--- !u!65 &721280845264420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8392266644077515961}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.1091266, y: 0.030362321, z: 0.030361177}
+  m_Center: {x: 0.00000029802322, y: -0.05440784, z: 3.380025}
 --- !u!1 &8557596512841748789
 GameObject:
   m_ObjectHideFlags: 0
@@ -9737,6 +10155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8106827630879522614}
   - component: {fileID: 1540535574476530746}
+  - component: {fileID: 2833955935718048882}
   m_Layer: 0
   m_Name: robot_Finger.009
   m_TagString: PunchObject
@@ -9850,6 +10269,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 1.1107647, z: -0.06288764}
     m_Extent: {x: 1.4827292, y: 0.015180588, z: 0.015181135}
   m_DirtyAABB: 0
+--- !u!65 &2833955935718048882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8603455361444250265}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9654584, y: 0.030362273, z: 0.030361177}
+  m_Center: {x: 0.00000011920929, y: 0.0628875, z: 3.380025}
 --- !u!1 &8669139262822443615
 GameObject:
   m_ObjectHideFlags: 0

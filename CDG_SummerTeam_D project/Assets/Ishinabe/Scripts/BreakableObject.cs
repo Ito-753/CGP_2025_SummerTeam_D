@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
+    private int touchCount = 0;
+    public ScoreCount Sm;
+    private int Status;
+    //スコアの宣言
     [SerializeField] private Transform brokenPrefab;
     [SerializeField] private Vector3 launchVelocity = new Vector3(0, 5, 0); // 生成後に上方向へ飛ばす
 
     private int clickCount = 0;
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        // マウスの左クリックを検知
-        if (Input.GetMouseButtonDown(0))
+        // PunchObjectのついた物体との接触を検知
+        if (other.gameObject.CompareTag("PunchObject"))
         {
             clickCount++;
 
@@ -19,6 +23,7 @@ public class BreakableObject : MonoBehaviour
             // 3回クリックされたら変化を起こす
             if (clickCount == 3)
             {
+                Sm.Score += 100;
                 TriggerEvent();
                 clickCount = 0; // 必要ならリセット
             }
