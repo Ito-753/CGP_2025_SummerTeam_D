@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreCount : MonoBehaviour
+public class ScoreCount2 : MonoBehaviour
 {
     public int Score;
     public TextMeshProUGUI ScoreText;
