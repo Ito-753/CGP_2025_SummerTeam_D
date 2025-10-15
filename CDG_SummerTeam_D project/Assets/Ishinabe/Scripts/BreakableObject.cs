@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
-    private int touchCount = 0;
-    public ScoreCount Sm;
-    private int Status;
-    //スコアの宣言
-    [SerializeField] private Transform brokenPrefab;
-    [SerializeField] private Vector3 launchVelocity = new Vector3(0, 5, 0); // 生成後に上方向へ飛ばす
+    private int touchCount = 0; //パンチ回数宣言
+    public ScoreCount Sm; //スコア宣言
+    private int Status; //ステータス宣言
 
-    private int clickCount = 0;
+    [SerializeField] private Transform brokenPrefab; //破片のモデルへの置き換え宣言
+    [SerializeField] private Vector3 launchVelocity = new Vector3(0, 5, 0); // 生成後に上方向へ力を与える
+
+    private int clickCount = 0; //パンチ回数宣言２(直すべき)
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,7 +24,7 @@ public class BreakableObject : MonoBehaviour
             if (clickCount == 3)
             {
                 Sm.Score += 100;
-                TriggerEvent();
+                TriggerEvent(); //破片への置き換えを実行
                 clickCount = 0; // 必要ならリセット
             }
         }
@@ -33,7 +33,7 @@ public class BreakableObject : MonoBehaviour
         {
 
             {
-                // プレハブを生成
+                // プレハブ(クリスタルの破片)を生成
                 Transform brokenTransform = Instantiate(brokenPrefab, transform.position, transform.rotation);
                 brokenTransform.localScale = transform.localScale;
 
