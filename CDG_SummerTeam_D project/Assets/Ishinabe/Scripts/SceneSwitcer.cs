@@ -9,7 +9,7 @@ public class SceneSwitcer : MonoBehaviour
         // Enterキーで「Field」シーンへ
         if (Input.GetKeyDown(KeyCode.Return))  // KeyCode.Return は Enterキー
         {
-            SceneManager.LoadScene("Field");
+            SceneManager.LoadScene("Stage");
         }
 
         // Spaceキーで「Asobikata」シーンへ
